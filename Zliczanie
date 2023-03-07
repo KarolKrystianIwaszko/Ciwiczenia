@@ -1,0 +1,54 @@
+Zliczanie.py-CAPython\Zliczanie.py (3.9.0)
+
+ㅁ
+
+File Edit Format Run Options Window Help
+
+N=5
+
+a= [0] N
+
+MAX_DANA = 99
+
+def wprowadz_dane():
+
+print ("Wprowadzaj liczby z przedziału <0,", MAX_DANA, ">")
+
+for i in range (N) :
+
+a[i]= int(input ("Podaj liczbę ")) if a[i] < 0: a[i] = 0
+
+if a[i]> MAX DANA: a[i]= MAX_DANA
+
+def wyprowadz_dane(): for i in range (N): print (a[i])
+
+def sort_zlicz ():
+
+liczniki = [0] (MAX_DANA + 1)+ for i in range (N):
+
+liczniki [a[i]] = liczniki [a[i]] + 14 poz = 0
+
+for i in range (MAX_DANA +1 ): for j in range (liczniki [i]): a [poz] = i poz = poz + 1
+
+wprowadz_dane ()
+
+wyprowadz_dane ()
+
+sort_zlicz ()
+
+print ("Dane posortowane metodą przez zliczanie") wyprowadz_dane ()
+
+Funkcja wyświetlająca dane na ekranie
+
+Definiujemy i równocze zerujemy listę liczn
+
+Dla każdej wprowadzo liczby zwiększamy odpowiadający jej liczn
+
+Układamy elementy
+
+listy a od najmniejsz
+
+do największego.
+
+
+input ("\n\nNaciśnij Enter, aby zakończyć")
